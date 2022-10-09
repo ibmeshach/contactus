@@ -1,0 +1,191 @@
+.info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 100%;
+  gap: 77px;
+
+  @media screen and (max-width: 600px) {
+    gap: 40px;
+  }
+
+  .info__texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 90%;
+    }
+    h1 {
+      display: none;
+
+      @media screen and (max-width: 600px) {
+        display: flex;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 31px;
+
+        color: #000000;
+      }
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 31px;
+      text-align: center;
+      width: 40%;
+
+      @media screen and (max-width: 800px) {
+        width: 60%;
+      }
+
+      @media screen and (max-width: 600px) {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+
+        color: #000000;
+      }
+    }
+  }
+
+  .info__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #edf0f2;
+    border-radius: 10px;
+
+    @media screen and (max-width: 600px) {
+      width: 90%;
+      border-radius: 50px;
+    }
+
+    .info__cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      padding: 67px 37px;
+
+      .info__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+
+        color: #242424;
+
+        .icon__div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #ffff;
+          border-radius: 50%;
+          height: 51px;
+          width: 51px;
+        }
+        .info__text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+
+          .card__h1 {
+            font-weight: 700;
+            font-size: 21.4388px;
+
+            color: #242424;
+            text-align: center;
+            width: 100%;
+
+            line-height: 27px;
+
+            @media screen and (max-width: 600px) {
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 28px;
+            }
+          }
+          .card__p {
+            font-weight: 500;
+            font-size: 15.5918px;
+
+            text-align: center;
+            width: 80%;
+
+            line-height: 20px;
+
+            color: #242424;
+
+            font-weight: 500;
+
+            @media screen and (max-width: 600px) {
+              font-size: 16px;
+              line-height: 20px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .info__card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (max-width: 600px) {
+          display: none;
+        }
+
+        .icon__div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #ffff;
+          border-radius: 50%;
+          height: 51px;
+          width: 51px;
+        }
+      }
+
+      .info__card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (max-width: 600px) {
+          display: none;
+        }
+
+        .icon__div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #ffff;
+          border-radius: 50%;
+          height: 51px;
+          width: 51px;
+        }
+      }
+    }
+  }
+}

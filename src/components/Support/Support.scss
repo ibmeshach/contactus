@@ -1,0 +1,119 @@
+.support__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .support__con {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    @media screen and (max-width: 600px) {
+      width: 90%;
+      gap: 50px;
+    }
+
+    .support__div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+
+      @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .support__icon__div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        background: rgba(6, 51, 91, 0.26);
+        border-radius: 23.1954px;
+        @media screen and (max-width: 600px) {
+          padding: 14px;
+        }
+
+        .su__icon {
+          display: none;
+          @media screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        img {
+          @media screen and (max-width: 600px) {
+            display: none;
+          }
+        }
+      }
+
+      .support__icon__div1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 23px;
+        background: rgba(6, 51, 91, 0.26);
+        border-radius: 23.1954px;
+        @media screen and (max-width: 600px) {
+          padding: 14px;
+        }
+
+        .su__icon {
+          display: none;
+          @media screen and (max-width: 600px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+
+        img {
+          @media screen and (max-width: 600px) {
+            display: none;
+          }
+        }
+      }
+
+      .support__text__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .support__p1 {
+          font-weight: 600;
+          font-size: 18px;
+        }
+
+        .support__p2 {
+          font-weight: 400;
+          font-size: 14px;
+          width: 80%;
+        }
+
+        .support__action {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          gap: 9px;
+          color: #06335b;
+        }
+      }
+    }
+  }
+}
